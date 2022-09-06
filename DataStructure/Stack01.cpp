@@ -32,6 +32,7 @@ int main() {
 				cout << -1 << endl;
 			}
 		}
+
 		else if ((strcmp(command, "size")) == 0) {
 			cout << sta.size() << endl;
 		}
