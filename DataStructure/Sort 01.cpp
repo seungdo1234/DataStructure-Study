@@ -16,7 +16,6 @@ int main() {
 		arr[i] = value;
 	}
 	
-	
 	sort(arr, arr + length);
 	
 	for (int i = 0; i < length; i++) {
