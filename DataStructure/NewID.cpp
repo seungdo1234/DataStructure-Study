@@ -32,7 +32,7 @@ void inputData(string newID) {
 			for (int i = 0; i < newID.size(); i++) {
 				if ('A' <= newID[i] && 'Z' >= newID[i]) {
 					newID[i] += 32;
-					check =		1;
+					check =	1;
 				}
 			}
 		}
